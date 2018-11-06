@@ -1,0 +1,976 @@
+object fm: Tfm
+  Left = 0
+  Top = 0
+  Caption = 'Color'
+  ClientHeight = 580
+  ClientWidth = 380
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnKeyDown = KeyDown
+  DesignerMasterStyle = 0
+  object tc: TTabControl
+    Align = Client
+    Size.Width = 380.000000000000000000
+    Size.Height = 580.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 1
+    TabOrder = 0
+    TabPosition = None
+    Sizes = (
+      380s
+      580s
+      380s
+      580s
+      380s
+      580s
+      380s
+      580s
+      380s
+      580s
+      380s
+      580s
+      380s
+      580s)
+    object tiMenu: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tiMenu'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object rec1: TRectangle
+        Align = Client
+        Fill.Color = claWhite
+        Size.Width = 380.000000000000000000
+        Size.Height = 580.000000000000000000
+        Size.PlatformDefault = False
+        object Layout1: TLayout
+          Align = Client
+          Size.Width = 380.000000000000000000
+          Size.Height = 580.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object buGame: TButton
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 50.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Position.X = 20.000000000000000000
+            Position.Y = 107.000000000000000000
+            Size.Width = 340.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = #1048#1075#1088#1072#1090#1100
+            TextSettings.Font.Size = 14.000000000000000000
+            OnClick = buGameClick
+            OnMouseEnter = buGameMouseEnter
+            OnMouseLeave = buGameMouseLeave
+          end
+          object buResult: TButton
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 50.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Position.X = 20.000000000000000000
+            Position.Y = 197.000000000000000000
+            Size.Width = 340.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            Text = #1056#1077#1079#1091#1083#1100#1090#1072#1090#1099
+            TextSettings.Font.Size = 14.000000000000000000
+            OnClick = buResultClick
+            OnMouseEnter = buGameMouseEnter
+            OnMouseLeave = buGameMouseLeave
+          end
+          object buSet: TButton
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 50.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Position.X = 20.000000000000000000
+            Position.Y = 287.000000000000000000
+            Size.Width = 340.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            Text = #1053#1072#1089#1090#1088#1086#1081#1082#1080
+            TextSettings.Font.Size = 14.000000000000000000
+            OnClick = buSetClick
+            OnMouseEnter = buGameMouseEnter
+            OnMouseLeave = buGameMouseLeave
+          end
+          object buHelp: TButton
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 50.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Position.X = 20.000000000000000000
+            Position.Y = 377.000000000000000000
+            Size.Width = 340.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            Text = #1055#1086#1084#1086#1097#1100
+            TextSettings.Font.Size = 14.000000000000000000
+            OnClick = buHelpClick
+            OnMouseEnter = buGameMouseEnter
+            OnMouseLeave = buGameMouseLeave
+          end
+          object buAbout: TButton
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 50.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Position.X = 20.000000000000000000
+            Position.Y = 467.000000000000000000
+            Size.Width = 340.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            Text = #1054' '#1087#1088#1086#1075#1088#1072#1084#1084#1077
+            TextSettings.Font.Size = 14.000000000000000000
+            OnClick = buAboutClick
+            OnMouseEnter = buGameMouseEnter
+            OnMouseLeave = buGameMouseLeave
+          end
+          object Label10: TLabel
+            Align = Top
+            StyledSettings = [Family, FontColor]
+            Margins.Top = 20.000000000000000000
+            Position.Y = 20.000000000000000000
+            Size.Width = 380.000000000000000000
+            Size.Height = 37.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 30.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.HorzAlign = Center
+            Text = #1062#1074#1077#1090#1086#1074#1086#1076
+          end
+        end
+      end
+    end
+    object tiSet: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tiSet'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ToolBar4: TToolBar
+        Size.Width = 380.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object buBack1: TButton
+          Align = Left
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          OnClick = buBack
+        end
+        object Label5: TLabel
+          Align = Contents
+          StyledSettings = [Family, Style, FontColor]
+          Size.Width = 380.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = #1053#1072#1089#1090#1088#1086#1081#1082#1080
+        end
+      end
+      object rec2: TRectangle
+        Align = Client
+        Fill.Color = claWhite
+        Size.Width = 380.000000000000000000
+        Size.Height = 532.000000000000000000
+        Size.PlatformDefault = False
+        object Label1: TLabel
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Top = 30.000000000000000000
+          Position.Y = 30.000000000000000000
+          Size.Width = 380.000000000000000000
+          Size.Height = 57.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = #1042#1088#1077#1084#1103
+        end
+        object Label2: TLabel
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Top = 30.000000000000000000
+          Position.Y = 193.000000000000000000
+          Size.Width = 380.000000000000000000
+          Size.Height = 37.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = #1062#1074#1077#1090' '#1092#1086#1085#1072
+        end
+        object tbTime: TTrackBar
+          Align = Top
+          CanParentFocus = True
+          Frequency = 5.000000000000000000
+          Max = 50.000000000000000000
+          Min = 20.000000000000000000
+          Orientation = Horizontal
+          Margins.Left = 50.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Margins.Right = 50.000000000000000000
+          Position.X = 50.000000000000000000
+          Position.Y = 107.000000000000000000
+          Size.Width = 280.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Value = 30.000000000000000000
+          OnChange = tbTimeChange
+        end
+        object GridPanelLayout3: TGridPanelLayout
+          Align = Top
+          Margins.Left = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 230.000000000000000000
+          Size.Width = 340.000000000000000000
+          Size.Height = 120.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          ColumnCollection = <
+            item
+              Value = 20.000000000000000000
+            end
+            item
+              Value = 80.000000000000000000
+            end>
+          ControlCollection = <
+            item
+              Column = 0
+              Control = Label6
+              Row = 0
+            end
+            item
+              Column = 1
+              Control = edR
+              Row = 0
+            end
+            item
+              Column = 0
+              Control = Label8
+              Row = 1
+            end
+            item
+              Column = 1
+              Control = edG
+              Row = 1
+            end
+            item
+              Column = 0
+              Control = Label9
+              Row = 2
+            end
+            item
+              Column = 1
+              Control = edB
+              Row = 2
+            end>
+          RowCollection = <
+            item
+              Value = 33.333333333333340000
+            end
+            item
+              Value = 33.333333333333340000
+            end
+            item
+              Value = 33.333333333333340000
+            end
+            item
+              SizeStyle = Auto
+            end>
+          object Label6: TLabel
+            Align = Client
+            Size.Width = 68.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.HorzAlign = Center
+            Text = 'R'
+          end
+          object edR: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Center
+            TabOrder = 1
+            Text = '255'
+            Size.Width = 100.000000000000000000
+            Size.Height = 22.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Label8: TLabel
+            Align = Client
+            Size.Width = 68.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.HorzAlign = Center
+            Text = 'G'
+          end
+          object edG: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Center
+            TabOrder = 3
+            Text = '255'
+          end
+          object Label9: TLabel
+            Align = Client
+            Size.Width = 68.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.HorzAlign = Center
+            Text = 'B'
+          end
+          object edB: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Center
+            TabOrder = 5
+            Text = '255'
+          end
+        end
+        object laTbValue: TLabel
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Top = 10.000000000000000000
+          Position.Y = 136.000000000000000000
+          Size.Width = 380.000000000000000000
+          Size.Height = 27.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'laTbValue'
+        end
+        object buAddColor: TButton
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 80.000000000000000000
+          Margins.Top = 30.000000000000000000
+          Margins.Right = 80.000000000000000000
+          Position.X = 80.000000000000000000
+          Position.Y = 380.000000000000000000
+          Size.Width = 220.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = #1055#1086#1082#1088#1072#1089#1080#1090#1100
+          TextSettings.Font.Size = 14.000000000000000000
+          OnClick = buAddColorClick
+          OnMouseEnter = buGameMouseEnter
+          OnMouseLeave = buGameMouseLeave
+        end
+        object buWhite: TButton
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 80.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Margins.Right = 80.000000000000000000
+          Position.X = 80.000000000000000000
+          Position.Y = 434.000000000000000000
+          Size.Width = 220.000000000000000000
+          Size.Height = 47.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          Text = #1041#1077#1083#1099#1081' '#1094#1074#1077#1090
+          TextSettings.Font.Size = 14.000000000000000000
+          OnClick = buWhiteClick
+          OnMouseEnter = buGameMouseEnter
+          OnMouseLeave = buGameMouseLeave
+        end
+      end
+    end
+    object tiResult: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tiResult'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ToolBar1: TToolBar
+        Size.Width = 380.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object buBack2: TButton
+          Align = Left
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'buBack2'
+          OnClick = buBack
+        end
+      end
+      object rec3: TRectangle
+        Align = Client
+        Fill.Color = claWhite
+        Size.Width = 380.000000000000000000
+        Size.Height = 532.000000000000000000
+        Size.PlatformDefault = False
+        object meScore: TMemo
+          Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+          DataDetectorTypes = []
+          Align = Client
+          Size.Width = 380.000000000000000000
+          Size.Height = 532.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Viewport.Width = 376.000000000000000000
+          Viewport.Height = 528.000000000000000000
+        end
+      end
+    end
+    object tiDiff: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tiDiff'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ToolBar5: TToolBar
+        Size.Width = 380.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object buBack3: TButton
+          Align = Left
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'buBack3'
+          OnClick = buBack
+        end
+        object Label3: TLabel
+          Align = Contents
+          StyledSettings = [Family, Style, FontColor]
+          Size.Width = 380.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = #1057#1083#1086#1078#1085#1086#1089#1090#1100
+        end
+      end
+      object rec4: TRectangle
+        Align = Client
+        Fill.Color = claWhite
+        Size.Width = 380.000000000000000000
+        Size.Height = 532.000000000000000000
+        Size.PlatformDefault = False
+        object Layout2: TLayout
+          Align = Client
+          Size.Width = 380.000000000000000000
+          Size.Height = 532.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object GridPanelLayout1: TGridPanelLayout
+            Align = Center
+            Size.Width = 305.000000000000000000
+            Size.Height = 221.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            ColumnCollection = <
+              item
+                Value = 100.000000000000000000
+              end>
+            ControlCollection = <
+              item
+                Column = 0
+                Control = buEasy
+                Row = 0
+              end
+              item
+                Column = 0
+                Control = buNotEasy
+                Row = 1
+              end>
+            RowCollection = <
+              item
+                Value = 50.000000000000000000
+              end
+              item
+                Value = 50.000000000000000000
+              end
+              item
+                SizeStyle = Auto
+              end>
+            object buEasy: TButton
+              Align = Client
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Bottom = 10.000000000000000000
+              Size.Width = 305.000000000000000000
+              Size.Height = 100.500000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              Text = #1051#1077#1075#1082#1072#1103
+              TextSettings.Font.Size = 14.000000000000000000
+              OnClick = buEasyClick
+              OnMouseEnter = buGameMouseEnter
+              OnMouseLeave = buGameMouseLeave
+            end
+            object buNotEasy: TButton
+              Align = Client
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Top = 10.000000000000000000
+              Size.Width = 305.000000000000000000
+              Size.Height = 100.500000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              Text = #1058#1103#1078#1077#1083#1072#1103
+              TextSettings.Font.Size = 14.000000000000000000
+              OnClick = buNotEasyClick
+              OnMouseEnter = buGameMouseEnter
+              OnMouseLeave = buGameMouseLeave
+            end
+          end
+        end
+      end
+    end
+    object tiGame: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tiGame'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object rec5: TRectangle
+        Align = Client
+        Fill.Color = claWhite
+        Size.Width = 380.000000000000000000
+        Size.Height = 580.000000000000000000
+        Size.PlatformDefault = False
+        object Layout3: TLayout
+          Align = Client
+          Size.Width = 380.000000000000000000
+          Size.Height = 580.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object tbTop: TToolBar
+            Size.Width = 380.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object buBack4: TButton
+              Align = Left
+              Size.Width = 48.000000000000000000
+              Size.Height = 48.000000000000000000
+              Size.PlatformDefault = False
+              StyleLookup = 'arrowlefttoolbutton'
+              TabOrder = 0
+              Text = 'buBack4'
+              OnClick = buBack4Click
+            end
+            object laScore: TLabel
+              Align = Contents
+              StyledSettings = [Family, FontColor]
+              Size.Width = 380.000000000000000000
+              Size.Height = 48.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 20.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.HorzAlign = Center
+              Text = 'laScore'
+            end
+            object laTime: TLabel
+              Align = Right
+              StyledSettings = [Family, Size, FontColor]
+              Position.X = 260.000000000000000000
+              Size.Width = 120.000000000000000000
+              Size.Height = 48.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.HorzAlign = Center
+              Text = '00:00'
+            end
+          end
+          object tbBot: TToolBar
+            Align = Bottom
+            Position.Y = 532.000000000000000000
+            Size.Width = 380.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object buNo: TButton
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Size.Width = 80.000000000000000000
+              Size.Height = 48.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              Text = #1053#1077#1090
+              TextSettings.Font.Size = 14.000000000000000000
+              OnClick = buNoClick
+              OnMouseEnter = buGameMouseEnter
+              OnMouseLeave = buGameMouseLeave
+            end
+            object buYes: TButton
+              Align = Right
+              StyledSettings = [Family, Style, FontColor]
+              Position.X = 300.000000000000000000
+              Size.Width = 80.000000000000000000
+              Size.Height = 48.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              Text = #1044#1072
+              TextSettings.Font.Size = 14.000000000000000000
+              OnClick = buYesClick
+              OnMouseEnter = buGameMouseEnter
+              OnMouseLeave = buGameMouseLeave
+            end
+          end
+          object GridPanelLayout2: TGridPanelLayout
+            Align = Client
+            Size.Width = 380.000000000000000000
+            Size.Height = 427.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            ColumnCollection = <
+              item
+                Value = 50.000000000000000000
+              end
+              item
+                Value = 50.000000000000000000
+              end>
+            ControlCollection = <
+              item
+                Column = 0
+                Control = laValFir
+                Row = 0
+              end
+              item
+                Column = 1
+                Control = laCheckFir
+                Row = 0
+              end
+              item
+                Column = 0
+                Control = laValSec
+                Row = 1
+              end
+              item
+                Column = 1
+                Control = laCheckSec
+                Row = 1
+              end>
+            RowCollection = <
+              item
+                Value = 50.000000000000000000
+              end
+              item
+                Value = 50.000000000000000000
+              end
+              item
+                SizeStyle = Auto
+              end
+              item
+                SizeStyle = Auto
+              end>
+            object laValFir: TLabel
+              Tag = 1
+              Align = Client
+              StyledSettings = [Family, Style]
+              Size.Width = 190.000000000000000000
+              Size.Height = 213.500000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 25.000000000000000000
+              TextSettings.HorzAlign = Center
+              Text = 'laValFir'
+            end
+            object laCheckFir: TLabel
+              Align = Client
+              StyledSettings = [Family, Style]
+              Size.Width = 190.000000000000000000
+              Size.Height = 213.500000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 25.000000000000000000
+              TextSettings.HorzAlign = Center
+              Text = 'laCheckFir'
+            end
+            object laValSec: TLabel
+              Align = Client
+              StyledSettings = [Family, Style]
+              Size.Width = 190.000000000000000000
+              Size.Height = 213.500000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 25.000000000000000000
+              TextSettings.HorzAlign = Center
+              Text = 'laValSec'
+            end
+            object laCheckSec: TLabel
+              Align = Client
+              StyledSettings = [Family, Style]
+              Size.Width = 190.000000000000000000
+              Size.Height = 213.500000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 25.000000000000000000
+              TextSettings.HorzAlign = Center
+              Text = 'laCheckSec'
+            end
+          end
+          object laQ: TLabel
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Position.Y = 48.000000000000000000
+            Size.Width = 380.000000000000000000
+            Size.Height = 57.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 15.000000000000000000
+            TextSettings.HorzAlign = Center
+            Text = 
+              #1057#1086#1074#1087#1072#1076#1072#1077#1090' '#1083#1080' '#1085#1072#1079#1074#1072#1085#1080#1077' '#1094#1074#1077#1090#1072' '#1085#1072' '#1083#1077#1074#1086#1081' '#1082#1072#1088#1090#1086#1095#1082#1077' '#1089' '#1094#1074#1077#1090#1086#1084' '#1090#1077#1082#1089#1090#1072' '#1085#1072 +
+              ' '#1087#1088#1072#1074#1086#1081' '#1082#1072#1088#1090#1086#1095#1082#1077'?'
+          end
+          object laStart: TLabel
+            Align = Center
+            StyledSettings = [Family, Style]
+            Size.Width = 201.000000000000000000
+            Size.Height = 173.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 20.000000000000000000
+            TextSettings.HorzAlign = Center
+            Text = 'laStart'
+          end
+        end
+      end
+    end
+    object tiHelp: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tiHelp'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ToolBar6: TToolBar
+        Size.Width = 380.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object buBack5: TButton
+          Align = Left
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          TabOrder = 0
+          Text = 'buBack5'
+          OnClick = buBack
+        end
+        object Label4: TLabel
+          Align = Contents
+          StyledSettings = [Family, Style, FontColor]
+          Size.Width = 380.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = #1055#1086#1084#1086#1097#1100
+        end
+      end
+      object rec6: TRectangle
+        Align = Client
+        Fill.Color = claWhite
+        Size.Width = 380.000000000000000000
+        Size.Height = 532.000000000000000000
+        Size.PlatformDefault = False
+        object Memo1: TMemo
+          Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+          DataDetectorTypes = []
+          Lines.Strings = (
+            #1042' '#1101#1090#1086#1081' '#1080#1075#1088#1077' '#1085#1077#1086#1073#1093#1086#1076#1080#1084#1086' '#1087#1088#1077#1076#1083#1086#1078#1080#1090#1100' '#1089#1086#1086#1090#1074#1077#1090#1089#1090#1074#1080#1077' '#1087#1072#1088#1099
+            #8220#1079#1085#1072#1095#1077#1085#1080#1077'-'#1094#1074#1077#1090#8221' '#1085#1072' '#1083#1077#1074#1086#1081' '#1080' '#1087#1088#1072#1074#1086#1081' '#1082#1072#1088#1090#1086#1095#1082#1077'. '
+            #1059#1087#1088#1072#1074#1083#1077#1085#1080#1077' '#1084#1086#1078#1085#1086' '#1086#1089#1091#1097#1077#1089#1090#1074#1083#1103#1090#1100' '#1082#1072#1082' '#1087#1088#1080' '#1087#1086#1084#1086#1097#1080' '#1084#1099#1096#1080', '
+            #1090#1072#1082' '#1080' '#1087#1088#1080' '#1087#1086#1084#1086#1097#1080' '#1082#1083#1072#1074#1080#1072#1090#1091#1088#1099'(Enter-'#1044#1072', Esc - '#1053#1077#1090')')
+          StyledSettings = [Family, Style, FontColor]
+          TextSettings.Font.Size = 14.000000000000000000
+          Align = Client
+          Enabled = False
+          Size.Width = 380.000000000000000000
+          Size.Height = 532.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Viewport.Width = 376.000000000000000000
+          Viewport.Height = 512.000000000000000000
+        end
+      end
+    end
+    object tiEndGame: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tiEndGame'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Rec7: TRectangle
+        Align = Client
+        Fill.Color = claWhite
+        Size.Width = 380.000000000000000000
+        Size.Height = 580.000000000000000000
+        Size.PlatformDefault = False
+        object buMenu: TButton
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 30.000000000000000000
+          Margins.Top = 30.000000000000000000
+          Margins.Right = 30.000000000000000000
+          Position.X = 30.000000000000000000
+          Position.Y = 430.000000000000000000
+          Size.Width = 320.000000000000000000
+          Size.Height = 57.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = #1043#1083#1072#1074#1085#1086#1077' '#1084#1077#1085#1102
+          TextSettings.Font.Size = 14.000000000000000000
+          OnClick = buBack
+          OnMouseEnter = buGameMouseEnter
+          OnMouseLeave = buGameMouseLeave
+        end
+        object buRestart: TButton
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 30.000000000000000000
+          Margins.Top = 30.000000000000000000
+          Margins.Right = 30.000000000000000000
+          Position.X = 30.000000000000000000
+          Position.Y = 335.000000000000000000
+          Size.Width = 320.000000000000000000
+          Size.Height = 65.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = #1045#1097#1105' '#1088#1072#1079'?'
+          TextSettings.Font.Size = 14.000000000000000000
+          OnClick = buGameClick
+          OnMouseEnter = buGameMouseEnter
+          OnMouseLeave = buGameMouseLeave
+        end
+        object edName: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 2
+          Text = #1048#1075#1088#1086#1082
+          Position.X = 30.000000000000000000
+          Position.Y = 198.000000000000000000
+          Margins.Left = 30.000000000000000000
+          Margins.Top = 50.000000000000000000
+          Margins.Right = 30.000000000000000000
+          Size.Width = 320.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = #1048#1075#1088#1086#1082
+        end
+        object laEndScore: TLabel
+          Align = Top
+          StyledSettings = [Family, FontColor]
+          Margins.Top = 50.000000000000000000
+          Position.Y = 50.000000000000000000
+          Size.Width = 380.000000000000000000
+          Size.Height = 31.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.HorzAlign = Center
+          Text = #1042#1072#1096#1080' '#1054#1095#1082#1080':0'
+        end
+        object laName: TLabel
+          Align = Top
+          StyledSettings = [Family, FontColor]
+          Margins.Top = 50.000000000000000000
+          Position.Y = 131.000000000000000000
+          Size.Width = 380.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.HorzAlign = Center
+          Text = #1042#1072#1096#1077' '#1080#1084#1103
+        end
+        object buAdd: TButton
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 30.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Margins.Right = 30.000000000000000000
+          Position.X = 30.000000000000000000
+          Position.Y = 240.000000000000000000
+          Size.Width = 320.000000000000000000
+          Size.Height = 65.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = #1042#1085#1077#1089#1090#1080' '#1074' '#1090#1072#1073#1083#1080#1094#1091' '#1088#1077#1082#1086#1088#1076#1086#1074
+          TextSettings.Font.Size = 14.000000000000000000
+          OnClick = buAddClick
+          OnMouseEnter = buGameMouseEnter
+          OnMouseLeave = buGameMouseLeave
+        end
+      end
+    end
+  end
+  object tmGame: TTimer
+    OnTimer = tmGameTimer
+    Left = 304
+    Top = 8
+  end
+end

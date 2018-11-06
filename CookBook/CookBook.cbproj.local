@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.148,C:\Users\Rick\Desktop\Project№2\Project№2\udm.cpp=C:\Users\Rick\Desktop\Project№2\Project№2\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.569,C:\Users\Rick\Documents\Embarcadero\Studio\Projects\Project№2\Unit1.fmx=C:\Users\Rick\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.946,C:\Users\kiriz_000\Desktop\Project№2\Project№2\CookBook.cbproj=C:\Users\kiriz_000\Desktop\Project№2\Project№2\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.325,=C:\Users\Rick\Desktop\Project№2\Project№2\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.910,C:\Users\Rick\Desktop\Project№2\Project№2\ufm.h=C:\Users\Rick\Desktop\Project№2\Project№2\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.747,C:\Users\kiriz_000\Desktop\Project№2\Project№2\CookBookPCH1.h=C:\Users\kiriz_000\Desktop\Project№2\Project№2\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.914,=C:\Users\Rick\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.569,C:\Users\Rick\Documents\Embarcadero\Studio\Projects\Project№2\Unit1.h=C:\Users\Rick\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.148,C:\Users\Rick\Desktop\Project№2\Project№2\udm.h=C:\Users\Rick\Desktop\Project№2\Project№2\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.538,=C:\Users\Rick\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.569,C:\Users\Rick\Documents\Embarcadero\Studio\Projects\Project№2\Unit1.cpp=C:\Users\Rick\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.910,C:\Users\Rick\Desktop\Project№2\Project№2\ufm.fmx=C:\Users\Rick\Desktop\Project№2\Project№2\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.704,C:\Users\Rick\Documents\Embarcadero\Studio\Projects\Project№2\Project1.cbproj=C:\Users\Rick\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.910,C:\Users\Rick\Desktop\Project№2\Project№2\ufm.cpp=C:\Users\Rick\Desktop\Project№2\Project№2\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.908,C:\Users\Rick\Documents\Embarcadero\Studio\Projects\Project№2\Project1PCH1.h=C:\Users\Rick\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.148,C:\Users\Rick\Desktop\Project№2\Project№2\udm.dfm=C:\Users\Rick\Desktop\Project№2\Project№2\Unit2.dfm</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>
